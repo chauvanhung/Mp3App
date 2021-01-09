@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.chootdev:blurimg:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d4142001d5f6682279991ec44eac68f/jetified-blurimg-1.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d4142001d5f6682279991ec44eac68f/jetified-blurimg-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d4142001d5f6682279991ec44eac68f/jetified-blurimg-1.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chootdev/blurimg/1.0.1/a73fa85fc9af3d81536b86d6db2073f99d7b910e/blurimg-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.chootdev/blurimg/1.0.1/83fde0a5dcf075e53ccd89922305b2280fda5795/blurimg-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

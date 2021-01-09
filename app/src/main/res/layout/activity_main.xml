@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imgAnhNen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/txvtenBaiHat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tên Bài hát"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        />
+<RelativeLayout
+    android:layout_marginLeft="-200dp"
+    android:layout_marginRight="-200dp"
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="400dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgCD"
+        android:rotation="360"
+        android:layout_height="300dp"
+        android:layout_width="300dp"
+        android:src="@drawable/bai_nhac_1"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txvLoibaihat"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Loi Bài hát"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/txvTimeNhacRun"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="00:00"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp">
+                <SeekBar
+                    android:id="@+id/sbNhac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txvTimeNhacAll"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:text="00:00"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="5dp">
+            <ImageView
+                android:onClick="choiBaiTruoc"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+            android:rotation="180"
+                android:padding="15dp"
+                android:src="@drawable/next"
+                android:background="@drawable/bg_img"/>
+            <ImageView
+                android:id="@+id/imgPlay"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/play"
+                android:padding="20dp"
+                android:background="@drawable/bg_img"/>
+            <ImageView
+                android:onClick="choiBaiSau"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/next"
+                android:padding="15dp"
+                android:background="@drawable/bg_img"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
